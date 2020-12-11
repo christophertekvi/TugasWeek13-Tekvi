@@ -26,6 +26,7 @@ namespace TugasWeek13
             if (labelOutput.Text != "[EMPTY]" && textBoxInput.Text == "DELETE")
             {
                 labelOutput.Text = "[EMPTY]";
+                labelOutput.ForeColor = Color.Black;
             }
             if (labelOutput.Text != "[EMPTY]")
             {
